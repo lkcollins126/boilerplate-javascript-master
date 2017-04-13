@@ -2,14 +2,14 @@
 
 const contentful = require('contentful')
 
-const SPACE_ID = 'y2rukh6lh8eb'
+const SPACE_ID = 'y2rukh6lh8eb',
 const ACCESS_TOKEN = '04347ad3e3c3266f1f197439fd77c11b0acfbd936ca740a4fd0670370e0e0287'
 
 const client = contentful.createClient({
   // This is the space ID. A space is like a project folder in Contentful terms
-  space: SPACE_ID,
+  space: y2rukh6lh8eb,
   // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
-  accessToken: ACCESS_TOKEN
+  accessToken: 04347ad3e3c3266f1f197439fd77c11b0acfbd936ca740a4fd0670370e0e0287
 })
 
 console.log('\x1b[32m Fetching entries ... \x1b[32m')
